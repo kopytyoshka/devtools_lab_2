@@ -113,4 +113,4 @@
     GIT_AUTHOR_EMAIL=ilyatttt19@gmail.com
     ' fd00db2^..feature 
 
-![avatar](task-7.jpg)
+![avatar](/images/task-7.jpg)
