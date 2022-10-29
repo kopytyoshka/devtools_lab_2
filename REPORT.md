@@ -89,3 +89,18 @@
     git bisect bad 
 
 ![avatar](/images/task-5.3.jpg)
+
+
+# 6 задание
+
+В репозитории существует файл .env, содержащий конфиденциальную информацию. Удалите его из всех коммитов, где он присутствует.
+
+    git filter-branch --tree-filter "rm -f .env" -- --all
+
+И добавьте в .gitignore
+
+    vim .gitignore 
+
+![avatar](/images/task-6.1.jpg)
+![avatar](/images/task-6.jpg)
+
