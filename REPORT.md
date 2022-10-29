@@ -114,3 +114,22 @@
     ' fd00db2^..feature 
 
 ![avatar](/images/task-7.jpg)
+
+
+# 8 задание
+Включите запоминание разрешений конфликтов. Влейте ветку `feature` в `master`, разрешив конфликт при слиянии. Откатите слияние, внесите изменение в файл `README.md` и снова влейте ветку `feature` в `master` без ручного разрешения конфликта.
+
+    git config --global rerere.enable true
+
+Cливаем ветки
+
+    git merge feature
+
+После открываем README.md
+
+    nano README.md 
+
+И редактируем его до такого состояния
+![avatar](/images/task-8.jpg)
+
+
