@@ -130,5 +130,5 @@ Cливаем ветки
     nano README.md 
 
 И редактируем его до такого состояния
-![avatar](/images/task-8.jpg)
+![avatar](/images/task-8.1.jpg)
 
