@@ -52,3 +52,10 @@
 
 
 ![avatar](/images/task-3.2.jpg)
+
+# 4 задание
+Определите коммит, в котором строчка 32 файла prisma/seed.ts изменялась в последний раз, и его дату.
+
+    git blame -L 32,32 prisma/seed.ts
+
+![avatar](/images/task-4.jpg)
