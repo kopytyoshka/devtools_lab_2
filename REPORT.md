@@ -4,7 +4,7 @@
     git instaweb
 делайте так, чтобы в нём отображалось нормальное описание репозитория.
 
-![avatar](/images/task-1.png)
+![avatar](/images/task-t.jpg)
 
 Изменили описание с помощью команды
 
@@ -34,3 +34,21 @@
 
 ![avatar](/images/task-2.1.jpg)
 ![avatar](/images/task-2.2.jpg)
+
+# 3 задание
+
+В репозитории есть несколько альтернативных историй проекта, недоступных из текущей версии графа. Найдите последний коммит любой из версий
+
+    git reflog
+
+    git checkout HEAD@{99}
+
+![avatar](/images/task-3.1.jpg)
+
+Создаём на нём ветку old-master.
+
+    git branch old-master HEAD
+    git checkout master 
+
+
+![avatar](/images/task-3.2.jpg)
