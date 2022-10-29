@@ -104,3 +104,13 @@
 ![avatar](/images/task-6.1.jpg)
 ![avatar](/images/task-6.jpg)
 
+# 7 задание
+
+Сделайте так, чтобы автором коммитов в ветке feature были Вы. Для этого укажите в изменяемых коммитах почту, привязанную к GitHub, и своё ФИО.
+
+    git gilter-branch --env-filter '
+    GIT_AUTHOR_NAME=kopytyoshka
+    GIT_AUTHOR_EMAIL=ilyatttt19@gmail.com
+    ' fd00db2^..feature 
+
+![avatar](task-7.jpg)
