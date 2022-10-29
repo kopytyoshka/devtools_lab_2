@@ -139,3 +139,18 @@ Cливаем ветки
     git fsck 
 
 ![avatar](/images/task-9.jpg)
+
+
+# 10 задание
+
+Проверьте размер репозитория (папки .git) и добейтесь уменьшения его размера.
+du -hs .git
+
+![avatar](/imgaes/task-10.1.jpg)
+
+Далее удаляем мусор
+
+    git gc 
+
+![avatar](/images/task-10.2.jpg)
+![avatar](/images/task-10.3.jpg)
