@@ -59,3 +59,33 @@
     git blame -L 32,32 prisma/seed.ts
 
 ![avatar](/images/task-4.jpg)
+
+# 5 задание
+В проекте существует регресс, на который имеется тест, запускающийся по команде npm run test. Найдите коммит, в котором проявился регресс.
+
+    git bisect start 
+
+В данном задании наибольшую трудность вызвало обновление nodejs до 12 версии и запуск тестов, чтобы всё не обваливалось
+
+Далее указываем хороший и плохой коммит
+
+    git bisect bad <hash-commit>
+    git bisect good <hash-commit>
+
+После запускаем тест
+
+    npm run test 
+
+![avatar](/images/task-5.1.jpg)
+
+Тест не упал, пишем в консолль:
+
+    git bisect good 
+
+после опять запускаем тест
+
+Если тест упал пишем:
+
+    git bisect bad 
+
+![avatar](/images/task-5.3.jpg)
